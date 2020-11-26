@@ -1,1 +1,1 @@
-# is_tft_lucky_game
+# is_tft_game_of_luck
