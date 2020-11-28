@@ -13,7 +13,7 @@ def lambda_handler(event, context):
         }
 
     elif request == 'POST':
-        bucket = 'tft-jinyes-data'
+        bucket = 'bucket_name'
         file_name = str(datetime.datetime.now())[:-7]
         file = event['body']
         result = upload_file_s3(bucket, file_name + '.json', file)
